@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download dan Instalasi APK</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .center-content {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container center-content">
+  <div class="text-center">
+    <img style="width: 200px; height: 200px;  object-fit: contain;"  src="harmonis-logo.png" alt="Harmonis Logo">
+    <h1 class="mb-4">Download dan Instalasi APK <div style="font-weight: bold;">HARMONIS 2024</div></h1>
+    <a style="background-color: black;" href="your-app.apk" download class="btn btn-primary mb-3"><img style="width: 17px; height: 17px;" src="google-play.png" > Download APK</a>
+    <div class="mt-4">
+      <h4>Tutorial Instalasi</h4>
+      <ol class="text-start">
+        <li>Klik tombol <strong>Download APK</strong>.</li>
+        <li>Buka file APK yang telah diunduh di perangkat Anda.</li>
+        <li>Jika muncul peringatan "Sumber tidak dikenal", aktifkan izin tersebut di pengaturan perangkat Anda.</li>
+        <li>Ikuti langkah instalasi hingga selesai.</li>
+        <li>Setelah instalasi, buka aplikasi dan izinkan akses kamera sesuai petunjuk berikut.</li>
+      </ol>
+      <button class="btn btn-secondary mt-2" data-bs-toggle="modal" data-bs-target="#cameraPermissionModal">Cara Memberikan Izin Kamera</button>
+    </div>
+    <div class="alert alert-info mt-3">
+      <strong>Catatan:</strong> Proses ini sepenuhnya legal. Aplikasi ini mematuhi semua aturan dan kebijakan hukum yang berlaku.
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="cameraPermissionModal" tabindex="-1" aria-labelledby="cameraPermissionModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cameraPermissionModalLabel">Cara Memberikan Izin Kamera</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ol>
+          <li>Buka <strong>Pengaturan</strong> di perangkat Anda.</li>
+          <li>Pilih menu <strong>Privasi</strong> atau <strong>Izin Aplikasi</strong>.</li>
+          <li>Temukan dan buka aplikasi yang telah diinstal.</li>
+          <li>Pilih <strong>Izin</strong> dan aktifkan akses <strong>Kamera</strong>.</li>
+          <li>Kembali ke aplikasi dan coba gunakan fitur kamera.</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
